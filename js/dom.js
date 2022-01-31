@@ -2,7 +2,7 @@ function addTodo() {
   const uncompletedTODOList = document.getElementById("todos");
 
   const textTodo = document.getElementById("title").value;
-  const timestamp = document.getElementById("date").valuea;
+  const timestamp = document.getElementById("date").value;
   const todo = makeTodo(textTodo, timestamp);
   uncompletedTODOList.append(todo);
 }
